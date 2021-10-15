@@ -21,16 +21,15 @@ serverless:
     backend: code_engine
 
 ibm:
-    iam_api_key: 73NnVxXo-vjq8qXhGJwG5v8iliYAx7kipugYzF5j4qh5
+    iam_api_key: <IAM KEY>
 
 code_engine:
-    namespace: b0gr1whbnvj
+    namespace: <NAMESPACE>
     runtime: ibmfunctions/lithops-ce-v385:234
-    #namespace: 1b124060-721a-4196-ae66-98a032a2b1a1
     region: eu-de
     docker_server: de.icr.io
     docker_user: iamapikey
-    docker_password: 73NnVxXo-vjq8qXhGJwG5v8iliYAx7kipugYzF5j4qh5
+    docker_password: <IAM KEY>
 
 ibm_cos:
     #region: eu-de
