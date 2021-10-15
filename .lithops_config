@@ -1,0 +1,38 @@
+lithops:
+    storage: ibm_cos
+    storage_bucket: cos-lithops-thesis-bucket
+    mode: serverless
+    #monitoring: rabbitmq
+    data_cleaner: True
+    #workers: 50
+    #data_limit: 4  # in MiB
+    #execution_timeout: 1800
+    #include_modules: <LIST_OF_MODULES>
+    #exclude_modules: <LIST_OF_MODULES>
+    #log_level: INFO
+    #log_format: "%(asctime)s [%(levelname)s] %(name)s -- %(message)s"
+    #log_stream: ext://sys.stdout
+    log_filename: ./logs/.log
+
+#rabbitmq:
+    #amqp_url: amqp://localhost:5672
+
+serverless:
+    backend: code_engine
+
+ibm:
+    iam_api_key: 73NnVxXo-vjq8qXhGJwG5v8iliYAx7kipugYzF5j4qh5
+
+code_engine:
+    namespace: b0gr1whbnvj
+    runtime: ibmfunctions/lithops-ce-v385:234
+    #namespace: 1b124060-721a-4196-ae66-98a032a2b1a1
+    region: eu-de
+    docker_server: de.icr.io
+    docker_user: iamapikey
+    docker_password: 73NnVxXo-vjq8qXhGJwG5v8iliYAx7kipugYzF5j4qh5
+
+ibm_cos:
+    #region: eu-de
+    endpoint: https://s3.eu-de.cloud-object-storage.appdomain.cloud
+    private_endpoint: https://cs3.private.eu-de.cloud-object-storage.appdomain.cloud
