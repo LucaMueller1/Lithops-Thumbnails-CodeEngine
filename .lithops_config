@@ -1,6 +1,6 @@
 lithops:
     storage: ibm_cos
-    storage_bucket: cos-lithops-thesis-bucket
+    storage_bucket: <YOUR BUCKET NAME>
     mode: serverless
     #monitoring: rabbitmq
     data_cleaner: True
