@@ -86,11 +86,11 @@ For more info, have a look [here](https://lithops-cloud.github.io/docs/source/co
 
 ## Results
 
-<img src="./documentation/ScalabilityLithopsVsVM.png" width="30%" height="auto" />
+<img src="./documentation/ScalabilityLithopsVsVM.png" width="80%" height="auto" />
 
-<img src="./documentation/BoxPlot50.png" width="30%" height="auto" />
+<img src="./documentation/BoxPlot50.png" width="50%" height="auto" />
 
-<img src="./documentation/BoxPlot200.png" width="30%" height="auto" />
+<img src="./documentation/BoxPlot200.png" width="50%" height="auto" />
 
 ## Dataset images
 
