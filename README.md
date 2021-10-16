@@ -1,5 +1,5 @@
 # Repository for Research Paper: Serverless Thumbnail Generation
-Serverless deployment on Cloud Code Engine that uses the Lithops Framework to process images in parallel
+Serverless deployment on IBM Cloud Code Engine that uses the Lithops Framework to process images in parallel 
 
 **English Title:** Juxtaposition of thumbnail generation on IBM Cloud Code Engine with multiprocessing through the Lithops Framework and the traditional deployment on a virtual machine
 
