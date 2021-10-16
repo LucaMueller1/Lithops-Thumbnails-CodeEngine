@@ -7,7 +7,7 @@ Serverless deployment on Cloud Code Engine that uses the Lithops Framework to pr
 
 (susceptible to change)
 
-###### This repository contains:
+#### This repository contains:
 - The code for the thumbnail generator as used for the research paper
   - `server_thumbnails_sequential.py` (Sequentially generate thumbnails on local machine)
   - `server_thumbnails_multi.py` (Use the standard python multiprocessing library to generate thumbnails in parallel on local machine)
@@ -16,7 +16,7 @@ Serverless deployment on Cloud Code Engine that uses the Lithops Framework to pr
 - The dataset of images I used for the research paper
 - Logs&Stats of all the experiments I conducted for transparency
 
-###### Recreating the results from the research paper:
+#### Recreating the results from the research paper:
 - Closely follow the following steps to set everything up
 - Run `server_thumbnails_sequential.py` and `server_thumbnails_multi.py` on a virtual machine with the specs:
   - 2 vCPU
