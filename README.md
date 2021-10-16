@@ -79,9 +79,9 @@ For more info, have a look [here](https://lithops-cloud.github.io/docs/source/co
 ## Architecture
 
 ### Thumbnail Generator System Context
-<img src="./documentation/PA2-System-Context.png" width="30%" height="auto" style="background-color:white;/>
+<img src="./documentation/PA2-System-Context.png" width="30%" height="auto" style="background-color:white;"/>
 
 ### Thumbnail Generator Architecture
-<img src="./documentation/PA2-Architecture.png" width="30%" height="auto" style="background-color:white;/>
+<img src="./documentation/PA2-Architecture.png" width="30%" height="auto" style="background-color:white;"/>
 
 
