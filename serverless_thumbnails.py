@@ -68,12 +68,11 @@ if __name__ == '__main__':
         dst = "./stats/lithops_" + str(time.time()) + "_" + str(round((maxTimestamp2 - minTimestamp2), 2)) + "_" + str(image_count)
         pool._executor.plot(dst=dst)
 
-    print("Time (func exec): ", maxTimestamp-minTimestamp)
+    print("Time (func exec): ", maxTimestamp - minTimestamp)
     print("Time (worker exec): ", maxTimestamp2 - minTimestamp2)
 
     #print("Time needed (Lithops serverless Multiprocessing): " + str(time.time() - start_time))
 
-'''
     print("Saving thumbnails to bucket")
     for images in output_files:
         for image in images:
@@ -81,4 +80,3 @@ if __name__ == '__main__':
             storage.put_object(bucket='cos-lithops-thesis-bucket', key=save_key, body=image[1].getvalue())
 
     print("Finished")
-'''

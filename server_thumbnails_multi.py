@@ -51,7 +51,6 @@ if __name__ == '__main__':
 
     print("Time needed (VM-Multiprocessing): " + str(time.time() - start_time))
 
-'''
     print("Saving thumbnails to bucket")
     for images in output_files:
         for image in images:
@@ -59,4 +58,3 @@ if __name__ == '__main__':
             storage.put_object(bucket='cos-lithops-thesis-bucket', key=save_key, body=image[1].getvalue())
 
     print("Finished")
-'''
