@@ -18,10 +18,12 @@ Serverless deployment on IBM Cloud Code Engine that uses the Lithops Framework t
 
 ### Recreating the results from the research paper:
 - Closely follow the following steps to set everything up
-- Run `server_thumbnails_sequential.py` and `server_thumbnails_multi.py` on a virtual machine with the specs:
+- Run `server_thumbnails_sequential.py` and `server_thumbnails_multi.py` on a virtual machine with the configuration:
   - 2 vCPU
   - 8 GiB Memory
   - 4 Gbps Network-Bandwidth
+  - Ubuntu 20.04.2
+  - Python 3.8
 - Even when following the instructions the results might vary from the ones in the paper because of:
   - Your used images (My dataset of images is in the `/dataset` directory)
   - Varying response time of IBM Cloud COS, IBM Cloud Code Engine
